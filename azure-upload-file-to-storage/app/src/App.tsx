@@ -202,6 +202,8 @@ function App() {
                   {item.endsWith('.jpg') ||
                   item.endsWith('.png') ||
                   item.endsWith('.jpeg') ||
+                  item.endsWith('.csv') ||
+                  item.endsWith('.pdf') ||
                   item.endsWith('.gif') ? (
                     <CardMedia component="img" image={item} alt={item} />
                   ) : (
