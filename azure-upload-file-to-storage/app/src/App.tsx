@@ -7,6 +7,7 @@ import { convertFileToArrayBuffer } from './lib/convert-file-to-arraybuffer';
 import axios, { AxiosResponse } from 'axios';
 import './App.css';
 
+// 20240709 release
 // Used only for local development
 const API_SERVER = import.meta.env.VITE_API_SERVER as string;
 
